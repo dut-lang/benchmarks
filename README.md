@@ -36,9 +36,17 @@ MEMORY: 16Gb
     14930352
     php fib.php  1.11s user 0.00s system 99% cpu 1.121 total
 
+
 ## Lisp
 
     $ time clisp fib.lisp
     14930352
     clisp fib.lisp  14.49s user 0.01s system 99% cpu 14.539 total
+
+
+## Go
+
+    $ time go run fib.go
+    14930352
+    go run fib.go  0.42s user 0.02s system 119% cpu 0.369 total
 
